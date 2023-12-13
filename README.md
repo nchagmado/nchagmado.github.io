@@ -7,5 +7,3 @@ He is also an Urban Planning expert who has had his training at the Department o
 
 ![](![Alt text](image.png))
 
-
-<iframe src="https://giphy.com/embed/SVH9y2LQUVVCRcqD7o" width="480" height="358" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/moodman-very-cool-SVH9y2LQUVVCRcqD7o">via GIPHY</a></p>
