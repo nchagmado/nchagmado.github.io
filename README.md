@@ -5,5 +5,5 @@ Jacob Nchagmado Tagnan is a Master's student at the [Florida State University](h
 
 He is also an Urban Planning expert who has had his training at the Department of Planning, Kwame Nkrumah University of Science and Technology (KNUST), Ghana, where he graduated with a B.Sc. (Hons) degree in Human Settlement Planning from KNUST. He worked as a Teaching and Research Assistant in the Department of Planning, KNUST after graduation where he assisted in teaching, research, and supervision of students’ works as directed by his Superiors.
 
-![](![Alt text](image.png))
+![](image.png)
 
