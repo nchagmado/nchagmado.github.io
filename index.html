@@ -212,7 +212,37 @@
 							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
 							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
 
-							<form method="post" action="#">
+							<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+
+    // Set your email address where you want to receive messages
+    $to = "jacobtagnan12@gmail.com";
+
+    // Email subject
+    $subject = "New Message from $name";
+
+    // Email body
+    $body = "Name: $name\n";
+    $body .= "Email: $email\n";
+    $body .= "Message: $message\n";
+
+    // Headers
+    $headers = "From: $email";
+
+    // Send email
+    if (mail($to, $subject, $body, $headers)) {
+        echo "Message sent successfully!";
+    } else {
+        echo "Oops! Something went wrong.";
+    }
+}
+?>
+
+
+							<form method="post" action="send_email.php">
 								<div class="row">
 									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
 									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
